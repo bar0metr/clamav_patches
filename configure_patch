@@ -1,0 +1,11 @@
+--- ./configure	2018-06-28 00:12:10.000000000 +0500
++++ ./configure2	2018-07-27 20:37:49.245711861 +0500
+@@ -18037,7 +18037,7 @@
+ fi
+ 
+ 
+-if test ! -f "$LIBSSL_HOME/include/openssl/ssl.h"
++if test ! -f "$LIBSSL_HOME/include/openssl-1.0/openssl/ssl.h"
+ then
+     as_fn_error $? "OpenSSL not found." "$LINENO" 5
+ fi
